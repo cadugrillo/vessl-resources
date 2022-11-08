@@ -1,1 +1,1 @@
-# cg-edge-resources
+# vessl-resources
