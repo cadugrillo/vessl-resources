@@ -112,7 +112,7 @@
       "title": "Telegraf",
       "name": "Telegraf",
       "hostname": "telegraf",
-      "description": " Open source agent for collecting metrics and data on the system it's running on.",
+      "description": " Open source agent for collecting metrics and data.",
       "info_url": "https://docs.influxdata.com/telegraf/",
       "categories": ["vessl-apps"],
       "platform": "linux",
