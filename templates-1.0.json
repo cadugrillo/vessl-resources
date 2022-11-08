@@ -109,6 +109,23 @@
     },
     {
       "type": 1,
+      "title": "Telegraf",
+      "name": "Telegraf",
+      "hostname": "telegraf",
+      "description": " Open source agent for collecting metrics and data on the system it's running on.",
+      "info_url": "https://docs.influxdata.com/telegraf/",
+      "categories": ["vessl-apps"],
+      "platform": "linux",
+      "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/influxdb-logo.png",
+      "image": "telegraf",
+      "restart_policy": "unless-stopped",
+      "network": "vessl-deafult",
+      "env": [],
+      "ports": [],
+      "volumes": []
+    },
+    {
+      "type": 1,
       "title": "MongoDB",
       "name": "MongoDB",
       "hostname": "mongo",
