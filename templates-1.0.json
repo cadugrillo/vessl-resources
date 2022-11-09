@@ -81,7 +81,7 @@
       "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/influxdb-logo.png",
       "image": "influxdb:2.3",
       "restart_policy": "unless-stopped",
-      "network": "vessl-deafult",
+      "network": "vessl-default",
       "env": ["DOCKER_INFLUXDB_INIT_MODE=setup",
 	      "DOCKER_INFLUXDB_INIT_USERNAME=cguser",
 	      "DOCKER_INFLUXDB_INIT_PASSWORD=cguser01",
