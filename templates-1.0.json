@@ -189,6 +189,7 @@
       "image": "ghcr.io/home-assistant/home-assistant:stable",
       "restart_policy": "unless-stopped",
       "network": "host",
+      "run": ["--privileged"],
       "env": ["TZ=America/New_York"],
       "ports": ["8123:8123/tcp"],
       "volumes": ["homeassistant-data:/config"]
