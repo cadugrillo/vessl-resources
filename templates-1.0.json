@@ -20,10 +20,10 @@
     },
     {
       "type": 1,
-      "title": "Mqtt Cloud Connector",
-      "name": "Mqtt-Cloud-Connector",
-      "hostname": "mqtt-cloud-connector",
-      "description": "Connect any topic from Local DataLake to any Cloud Provider",
+      "title": "Mqtt PubSub",
+      "name": "Mqtt PubSub",
+      "hostname": "mqtt-pubsub",
+      "description": "Connect any topic from one MQTT Broker to another.",
       "info_url": "https://github.com/cadugrillo/mqtt-cloud-connector",
       "categories": ["vessl-apps"],
       "platform": "linux",
@@ -51,23 +51,6 @@
       "env": [],
       "ports": ["1880:1880/tcp"],
       "volumes": ["nodered-data:/data"]
-    },
-    {
-      "type": 1,
-      "title": "Opcua Mqtt Connector",
-      "name": "Opcua-Mqtt-Connector",
-      "hostname": "opcua-mqtt-connector",
-      "description": "Connect any OPC-UA Server to Local DataLake",
-      "info_url": "https://github.com/cadugrillo/opcua-mqtt-connector",
-      "categories": ["vessl-apps"],
-      "platform": "linux",
-      "logo": "https://raw.githubusercontent.com/cadugrillo/cg-edge-resources/main/cg-logo-small.png",
-      "image": "cadugrillo/opcua-mqtt-connector:1.5",
-      "restart_policy": "unless-stopped",
-      "network": "vessl-default",
-      "env": [],
-      "ports": [],
-      "volumes": ["opcua-mqtt-connector-data:/config"]
     },
     {
       "type": 1,
