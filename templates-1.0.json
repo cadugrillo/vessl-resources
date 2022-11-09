@@ -192,6 +192,24 @@
       "env": ["TZ=America/New_York"],
       "ports": ["8123:8123/tcp"],
       "volumes": ["homeassistant-data:/config"]
+    },
+     {
+      "type": 1,
+      "title": "Ignition",
+      "name": "Ignition",
+      "hostname": "ignition",
+      "description": "The Unlimited Platform for SCADA and So Much More.",
+      "info_url": "https://inductiveautomation.com/ignition/",
+      "categories": ["industrial-automation"],
+      "platform": "linux",
+      "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/ignition-logo.png",
+      "image": "inductiveautomation/ignition:latest",
+      "restart_policy": "unless-stopped",
+      "network": "vessl-default",
+      "env": [],
+      "cmd": ["-n", "docker-vessl", "-a", "localhost", "-h", "9088", "-s", "9043"],
+      "ports": ["9088:8088/tcp"],
+      "volumes": ["ignitiongw-data:/usr/local/bin/ignition/data"]
     }
   ]
 }
