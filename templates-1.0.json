@@ -175,6 +175,23 @@
       "env": ["MYSQL_ROOT_PASSWORD=root"],
       "ports": ["3306:3306/tcp"],
       "volumes": ["mariadb-data:/data/db"]
+    },
+    {
+      "type": 1,
+      "title": "Home Assistant",
+      "name": "Home Assistant",
+      "hostname": "homeassistant",
+      "description": "Open-source home automation that puts local control and privacy first.",
+      "info_url": "https://www.home-assistant.io/",
+      "categories": ["home-automation"],
+      "platform": "linux",
+      "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/homeassistant-logo.png",
+      "image": "ghcr.io/home-assistant/home-assistant:stable",
+      "restart_policy": "unless-stopped",
+      "network": "host",
+      "env": ["TZ=America/New_York"],
+      "ports": ["8123:8123/tcp"],
+      "volumes": ["homeassistant-data:/config"]
     }
   ]
 }
