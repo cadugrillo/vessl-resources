@@ -121,7 +121,7 @@
       "image": "telegraf",
       "restart_policy": "unless-stopped",
       "network": "vessl-deafult",
-      "env": [],
+      "env": ["INFLUX_URL=http://influxdb:8086"],
       "ports": [],
       "volumes": []
     },
