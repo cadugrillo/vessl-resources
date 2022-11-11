@@ -102,7 +102,7 @@
       "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/influxdb-logo.png",
       "image": "chronograf",
       "restart_policy": "unless-stopped",
-      "network": "vessl-deafult",
+      "network": "vessl-default",
       "env": ["INFLUXDB_URL=http://influxdb:8086"],
       "cmd": [],
       "ports": ["8888:8888/tcp"],
@@ -120,7 +120,7 @@
       "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/influxdb-logo.png",
       "image": "telegraf",
       "restart_policy": "unless-stopped",
-      "network": "vessl-deafult",
+      "network": "vessl-default",
       "env": ["INFLUX_URL=http://influxdb:8086"],
       "ports": [],
       "volumes": []
