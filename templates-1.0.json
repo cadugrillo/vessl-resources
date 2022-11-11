@@ -103,8 +103,8 @@
       "image": "chronograf",
       "restart_policy": "unless-stopped",
       "network": "vessl-deafult",
-      "env": [],
-      "cmd": ["--influxdb-url","http://influxdb:8086"],
+      "env": ["INFLUXDB_URL=http://influxdb:8086"],
+      "cmd": [],
       "ports": ["8888:8888/tcp"],
       "volumes": ["chronograf-data:/var/lib/chronograf"]
     },
