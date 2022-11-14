@@ -252,9 +252,9 @@
     {
       "type": 1,
       "title": "Wordpress",
-      "name": "Ignition",
-      "hostname": "ignition",
-      "description": "WordPress is a free and open source blogging tool and a content management system.",
+      "name": "Wordpress",
+      "hostname": "wordpress",
+      "description": "WordPress is a free and open source blogging tool and a CMS.",
       "info_url": "https://wordpress.org/",
       "categories": ["productivity"],
       "platform": "linux",
