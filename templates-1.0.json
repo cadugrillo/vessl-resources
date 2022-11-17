@@ -27,7 +27,7 @@
       "info_url": "https://github.com/cadugrillo/mqtt-pub-sub",
       "categories": ["vessl-apps"],
       "platform": "linux",
-      "logo": "https://raw.githubusercontent.com/cadugrillo/cg-edge-resources/main/vessl-logo.png",
+      "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/vessl-logo.png",
       "image": "vessl/mqtt-pubsub:0.1",
       "restart_policy": "unless-stopped",
       "network": "vessl-default",
