@@ -28,7 +28,7 @@
       "categories": ["vessl-apps"],
       "platform": "linux",
       "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/vessl-logo.png",
-      "image": "vessl/mqtt-pubsub:0.1",
+      "image": "vessl/mqtt-pubsub:latest",
       "restart_policy": "unless-stopped",
       "network": "vessl-default",
       "env": [],
