@@ -120,7 +120,7 @@
       "logo": "https://raw.githubusercontent.com/cadugrillo/vessl-resources/main/influxdb-logo.png",
       "image": "telegraf",
       "restart_policy": "unless-stopped",
-      "network": "vessl-default",
+      "network": "host",
       "env": ["INFLUX_URL=http://localhost:8086"],
       "cmd": ["--config", "http://localhost:8086/api/v2/telegrafs/<your_number>"],
       "ports": [],
